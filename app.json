@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "stok_listesi",
+    "slug": "stok_listesi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "myapp",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.naruto1230.stok_listesi"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-router"],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "4e1d363c-ad7b-4c80-a104-6138a3d40d31"
+      }
+    }
+  }
+}
